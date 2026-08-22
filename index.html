@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{margin:0;height:100vh;background:#000;display:grid;place-items:center;cursor:pointer;user-select:none;-webkit-tap-highlight-color:transparent}
+.w{background:#fff}
+img{display:none;pointer-events:none;-webkit-user-drag:none}
+.w img{display:block}
+</style>
+</head>
+<body onclick="localStorage.c=~~localStorage.c+1;document.body.classList.toggle('w');a.currentTime=0;a.play()">
+<img src="data/pug.png">
+<audio id="a" src="data/1.mp3"></audio>
+</body>
+</html>
